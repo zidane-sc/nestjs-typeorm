@@ -1,4 +1,5 @@
 import { Column, Entity, ManyToOne, PrimaryGeneratedColumn } from 'typeorm';
+import { PartialType } from '@nestjs/mapped-types';
 import { User } from './user.entity';
 
 @Entity()
